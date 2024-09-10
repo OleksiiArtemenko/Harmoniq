@@ -1,0 +1,44 @@
+.track-container {
+  width: 420px;
+  height: 12px;
+  background-color: #5c5c5c;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.track-buffered {
+  width: 45%;
+  height: 100%;
+  background-color: #377d9d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.track-progress {
+  width: 40%;
+  height: 100%;
+  background-color: #00aeff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.track-label {
+  position: absolute;
+  width: 100%;
+  bottom: -20px;
+  text-align: center;
+  color: white;
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+@media (max-width: 1050px) {
+  .track-container {
+    width: calc(100vw - 300px);
+  }
+}

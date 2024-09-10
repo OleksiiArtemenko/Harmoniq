@@ -1,0 +1,123 @@
+@charset "UTF-8";
+.footer {
+  border-top: 1px solid #ddd;
+  /* Верхняя граница футера */
+  margin-top: 2.5rem;
+  /* Отступ сверху */
+  padding: 2.5rem 0.5rem;
+  /* Внутренние отступы */
+  background-color: white;
+  /* Цвет фона футера */
+}
+.footer__share {
+  display: flex;
+  /* Использование флексбоксов для расположения элементов */
+  color: #676767;
+  /* Цвет текста ссылки */
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  /* Укажите начертание шрифта (normal, bold, 100, 400, и т.д.) */
+  font-size: 1.25rem;
+  text-align: center;
+  /* Центрирование текста внутри блока */
+  flex-direction: column;
+  /* Расположить элементы по вертикали */
+}
+.footer__share--buttons {
+  display: flex;
+  /* Использование Flexbox */
+  justify-content: center;
+  /* Равномерное распределение элементов */
+  gap: 1rem;
+  /* Расстояние между кнопками */
+  margin-top: 1rem;
+  /* Отступ сверху для разделения текста и кнопок */
+}
+.footer__share--buttons--size {
+  width: 3rem;
+  /* Ширина кнопки */
+  height: 3rem;
+  /* Высота кнопки */
+  border: none;
+  /* Убрать границу */
+  background: none;
+  /* Убрать фон кнопки */
+  cursor: pointer;
+  /* Курсор при наведении */
+}
+.footer__share--buttons--size img {
+  width: 100%;
+  /* Ширина изображения соответствует кнопке */
+  height: 100%;
+  /* Высота изображения соответствует кнопке */
+  object-fit: contain;
+  /* Сохранить пропорции изображения */
+}
+.footer__info {
+  display: flex;
+  /* Использование флексбоксов для расположения элементов */
+  color: #676767;
+  /* Цвет текста ссылки */
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 5;
+  /* Расстояние между строчками заголовка */
+  padding: 0.1rem 2.5rem;
+  /* Внутренние отступы */
+}
+.footer__content {
+  display: flex;
+  /* Использование флексбоксов для расположения элементов */
+  flex-wrap: wrap;
+  /* Перенос элементов на новую строку при необходимости */
+  justify-content: space-between;
+  /* Равномерное распределение элементов */
+}
+.footer__section {
+  width: 100%;
+  /* Ширина блока секции 100% */
+  margin-bottom: 1.25rem;
+  /* Отступ снизу секции */
+  color: #676767;
+  /* Цвет текста ссылки */
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  white-space: nowrap;
+  /* Предотвращает перенос текста на новую строку */
+}
+.footer__section--company, .footer__section--contact {
+  line-height: 1.5;
+  /* Расстояние между строчками заголовка */
+}
+.footer__section--company li::marker, .footer__section--contact li::marker {
+  content: '';
+  /* Убрать маркеры списка */
+}
+@media (min-width: 768px) {
+  .footer__section--company, .footer__section--contact {
+    /* Медиазапрос для экранов шириной 768px и выше */
+    width: 40%;
+    /* Ширина 40% для company, content, и contact секций на больших экранах */
+  }
+}
+@media (min-width: 768px) {
+  .footer__section {
+    /* Медиазапрос для экранов шириной 768px и выше */
+    width: 20%;
+    /* Ширина 20% для всех секций на больших экранах */
+  }
+}
+.footer__link {
+  color: #676767;
+  /* Цвет текста ссылки */
+  text-decoration: none;
+  /* Убрать подчеркивание текста */
+  transition: color 0.3s;
+  /* Плавный переход цвета при наведении */
+}
+.footer__link:hover {
+  color: #4e4e4e;
+  /* Цвет текста ссылки при наведении */
+  text-decoration: underline;
+  /* Подчеркивание при наведении */
+}

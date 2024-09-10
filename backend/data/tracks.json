@@ -1,0 +1,457 @@
+[
+  {
+    "src": "armin.mp3",
+    "imgSrc": "arimn.jpg",
+    "name": "In & Out Of Love",
+    "autor": "Armin van Buuren",
+    "genre": "Trance",
+    "secondaryParam": "Some param",
+    "listening": {
+      "day": 345,
+      "month": 863,
+      "week": 50
+    }
+  },
+  {
+    "src": "atb.mp3",
+    "imgSrc": "atb.jpg",
+    "name": "Ecstasy",
+    "autor": "ATB",
+    "genre": "Trance",
+    "secondaryParam": "Another param",
+    "listening": {
+      "day": 299,
+      "month": 131,
+      "week": 60
+    }
+  },
+  {
+    "src": "pitbull.mp3",
+    "imgSrc": "pitbull.jpg",
+    "name": "Hey Baby",
+    "autor": "Pitbull",
+    "genre": "Pop",
+    "secondaryParam": "Yet another param",
+    "listening": {
+      "day": 330,
+      "month": 420,
+      "week": 70
+    }
+  },
+  {
+    "src": "lilpeep_castles.mp3",
+    "imgSrc": "castles.jpg",
+    "name": "castles",
+    "autor": "Lil Peep",
+    "genre": "Pop",
+    "secondaryParam": "Yet another param",
+    "listening": {
+      "day": 990,
+      "month": 950,
+      "week": 98
+    }
+  },
+  {
+    "src": "nemo_nightwish.mp3",
+    "imgSrc": "nemo_nightwish.jpg",
+    "name": "Nemo",
+    "autor": "Nightwish",
+    "genre": "Rock",
+    "secondaryParam": "Yet another param",
+    "listening": {
+      "day": 390,
+      "month": 400,
+      "week": 70
+    }
+  },
+  {
+    "src": "WhispersintheDark.mp3",
+    "imgSrc": "whispers_skillet.jpg",
+    "name": "Whispers in the Dark",
+    "autor": "Skillet",
+    "genre": "Rock",
+    "secondaryParam": "Yet another param",
+    "listening": {
+      "day": 309,
+      "month": 401,
+      "week": 70
+    }
+  },
+  {
+    "src": "your_favorite_dress.mp3",
+    "imgSrc": "your_favorite_dress.jpg",
+    "name": "your favorite dress",
+    "autor": "Lil Peep",
+    "genre": "Pop",
+    "secondaryParam": "Yet another param",
+    "listening": {
+      "day": 350,
+      "month": 400,
+      "week": 70
+    }
+  },
+  {
+    "src": "witchblades.mp3",
+    "imgSrc": "witchblades.jpg",
+    "name": "witchblades",
+    "autor": "Lil Peep",
+    "genre": "Pop",
+    "secondaryParam": "Yet another param",
+    "listening": {
+      "day": 30,
+      "month": 400,
+      "week": 70
+    }
+  },
+  {
+    "src": "XXXTENTACION_NUMB.mp3",
+    "imgSrc": "numb_xxxtentacion.jpg",
+    "name": "NUMB",
+    "autor": "XXXTENTACION",
+    "genre": "Pop",
+    "secondaryParam": "Yet another param",
+    "listening": {
+      "day": 897,
+      "month": 890,
+      "week": 70
+    }
+  },
+  {
+    "src": "Gorillaz_Feel_Good_Inc.mp3",
+    "imgSrc": "feel_good_inc_gorillaz.jpg",
+    "name": "Feel Good Inc.",
+    "autor": "Gorillaz",
+    "genre": "Pop",
+    "secondaryParam": "Yet another param",
+    "listening": {
+      "day": 302,
+      "month": 400,
+      "week": 70
+    }
+  },
+  {
+    "src": "WhatUGonDo.mp3",
+    "imgSrc": "WhatUonDo.jpg",
+    "name": "What U Gon' Do",
+    "autor": "The East Side Boyz",
+    "genre": "Hip-hop",
+    "secondaryParam": "Aggressive",
+    "listening": {
+      "day": 941,
+      "week": 921,
+      "month": 92
+    }
+  },
+  {
+    "src": "CreepingDeath.mp3",
+    "imgSrc": "CreepingDeathI.jpg",
+    "name": "Creeping Death",
+    "autor": "Metallica",
+    "genre": "Metal",
+    "secondaryParam": "Aggressive",
+    "listening": {
+      "day": 361,
+      "week": 876,
+      "month": 20
+    }
+  },
+  {
+    "src": "RiotAct.mp3",
+    "imgSrc": "RiotAct.jpg",
+    "name": "Riot Act",
+    "autor": "Exodus",
+    "genre": "Rock",
+    "secondaryParam": "Aggressive",
+    "listening": {
+      "day": 543,
+      "week": 641,
+      "month": 30
+    }
+  },
+  {
+    "src": "TornadoOfSouls.mp3",
+    "imgSrc": "TornadoOfSouls.jpg",
+    "name": "Tornado Of Souls",
+    "autor": "Megadeth",
+    "genre": "Metal",
+    "secondaryParam": "Aggressive",
+    "listening": {
+      "day": 945,
+      "week": 634,
+      "month": 23
+    }
+  },
+  {
+    "src": "Omen.mp3",
+    "imgSrc": "Omen.jpg",
+    "name": "Omen",
+    "autor": "The Prodigy",
+    "genre": "Electronic",
+    "secondaryParam": "Aggressive",
+    "listening": {
+      "day": 863,
+      "week": 982,
+      "month": 0
+    }
+  },
+  {
+    "src": "SONNE.mp3",
+    "imgSrc": "SONNE.jpg",
+    "name": "SONNE",
+    "autor": "Rammstein",
+    "genre": "Metal",
+    "secondaryParam": "Aggressive",
+    "listening": {
+      "day": 465,
+      "week": 721,
+      "month": 56
+    }
+  },
+  {
+    "src": "Toxicity.mp3",
+    "imgSrc": "Toxicity.jpg",
+    "name": "Toxicity",
+    "autor": "System Of A Down",
+    "genre": "Metal",
+    "secondaryParam": "Aggressive",
+    "listening": {
+      "day": 752,
+      "week": 755,
+      "month": 23
+    }
+  },
+  {
+    "src": "ThroughtheNever.mp3",
+    "imgSrc": "ThroughtheNever.jpg",
+    "name": "Through the Never",
+    "autor": "Metallica",
+    "genre": "Rock",
+    "secondaryParam": "Aggressive",
+    "listening": {
+      "day": 842,
+      "week": 275,
+      "month": 234
+    }
+  },
+  {
+    "src": "MasterOfPuppets.mp3",
+    "imgSrc": "MasterOfPuppets.jpg",
+    "name": "Master Of Puppets",
+    "autor": "Metallica",
+    "genre": "Metal",
+    "secondaryParam": "Aggressive",
+    "listening": {
+      "day": 923,
+      "week": 853,
+      "month": 12
+    }
+  },
+  {
+    "src": "NothingElseMatters.mp3",
+    "imgSrc": "NothingElseMatters.jpg",
+    "name": "Nothing Else Matters",
+    "autor": "Metallica",
+    "genre": "Metal",
+    "secondaryParam": "Aggressive",
+    "listening": {
+      "day": 183,
+      "week": 273,
+      "month": 10
+    }
+  },
+  {
+    "src": "Metallica â The Unforgiven.mp3",
+    "imgSrc": "Metallica â The Unforgiven.jpg",
+    "name": "The Unforgiven",
+    "autor": "Metallica",
+    "genre": "Metal",
+    "secondaryParam": "Aggressive",
+    "listening": {
+      "day": 102,
+      "week": 983,
+      "month": 52
+    }
+  },
+  {
+    "src": "Austin Mahone â Till I Find You.mp3",
+    "imgSrc": "Austin Mahone â Till I Find You.jpg",
+    "name": "Till I Find You",
+    "autor": "Austin Mahone",
+    "genre": "Pop",
+    "secondaryParam": "Joyful",
+    "listening": {
+      "day": 921,
+      "week": 832,
+      "month": 76
+    }
+  },
+  {
+    "src": "Lukas Graham â 7 Years.mp3",
+    "imgSrc": "Lukas Graham â 7 Years.jpg",
+    "name": "7 Years",
+    "autor": "Lukas Graham",
+    "genre": "Pop",
+    "secondaryParam": "Sad",
+    "listening": {
+      "day": 533,
+      "week": 744,
+      "month": 23
+    }
+  },
+  {
+    "src": "Sting â Shape Of My Heart.mp3",
+    "imgSrc": "Sting â Shape Of My Heart.jpg",
+    "name": "Shape Of My Heart",
+    "autor": "Sting",
+    "genre": "Jazz",
+    "secondaryParam": "Sad",
+    "listening": {
+      "day": 853,
+      "week": 542,
+      "month": 76
+    }
+  },
+  {
+    "src": "GIORGOS MAZONAKIS â Savvato.mp3",
+    "imgSrc": "GIORGOS MAZONAKIS â Savvato.jpg",
+    "name": "Savvato",
+    "autor": "GIORGOS MAZONAKIS",
+    "genre": "Pop",
+    "secondaryParam": "Sad",
+    "listening": {
+      "day": 674,
+      "week": 942,
+      "month": 78
+    }
+  },
+  {
+    "src": "Adele â Someone Like You.mp3",
+    "imgSrc": "Adele â Someone Like You.jpg",
+    "name": "Someone Like You",
+    "autor": "Adele",
+    "genre": "Pop",
+    "secondaryParam": "Sad",
+    "listening": {
+      "day": 721,
+      "week": 343,
+      "month": 23
+    }
+  },
+  {
+    "src": "Infected Mushroom â Herbert the Pervert.mp3",
+    "imgSrc": "Infected Mushroom â Herbert the Pervert.jpg",
+    "name": "Herbert",
+    "autor": "Infected Mushroom",
+    "genre": "Trance",
+    "secondaryParam": "Mystical",
+    "listening": {
+      "day": 312,
+      "week": 231,
+      "month": 89
+    }
+  },
+  {
+    "src": "Infected Mushroom â Kazabubu.mp3",
+    "imgSrc": "Infected Mushroom â Kazabubu.jpg",
+    "name": "Kazabubu",
+    "autor": "Infected Mushroom",
+    "genre": "Trance",
+    "secondaryParam": "Mystical",
+    "listening": {
+      "day": 123,
+      "week": 621,
+      "month": 83
+    }
+  },
+  {
+    "src": "Yahel â Atmosphere Upgrade Cut Remix.mp3",
+    "imgSrc": "Yahel â Atmosphere.jpg",
+    "name": "Atmosphere",
+    "autor": "Yahel",
+    "genre": "Trance",
+    "secondaryParam": "Mystical",
+    "listening": {
+      "day": 734,
+      "week": 522,
+      "month": 743
+    }
+  },
+  {
+    "src": "MrKitty â After Dark.mp3",
+    "imgSrc": "Mr.Kitty â After Dark.jpg",
+    "name": "After Dark",
+    "autor": "Mr.Kitty",
+    "genre": "Phonk",
+    "secondaryParam": "Dreamy",
+    "listening": {
+      "day": 620,
+      "week": 240,
+      "month": 62
+    }
+  },
+  {
+    "src": "Key Glock â Q-Dogz.mp3",
+    "imgSrc": "Key Glock â Q-Dogz.jpg",
+    "name": "Q-Dogz",
+    "autor": "Key Glock",
+    "genre": "Rap",
+    "secondaryParam": "Dreamy",
+    "listening": {
+      "day": 944,
+      "week": 904,
+      "month": 99
+    }
+  },
+  {
+    "src": "Akcent â Phone Sex.mp3",
+    "imgSrc": "Akcent â Phone Sex.jpg",
+    "name": "Phone Sex",
+    "autor": "Akcent",
+    "genre": "Club",
+    "secondaryParam": "Joyful",
+    "listening": {
+      "day": 462,
+      "week": 743,
+      "month": 98
+    }
+  },
+  {
+    "src": "Jimin â Purple wave.mp3",
+    "imgSrc": "Jimin â Purple wave.jpg",
+    "name": "Purple wave",
+    "autor": "Jimin",
+    "genre": "Classical",
+    "secondaryParam": "Dreamy",
+    "listening": {
+      "day": 126,
+      "week": 783,
+      "month": 45
+    }
+  },
+  {
+    "src": "Max Lorens â Charming Eyes.mp3",
+    "imgSrc": "Max Lorens â Charming Eyes.jpg",
+    "name": "Charming Eyes",
+    "autor": "Max Lorens",
+    "genre": "R&B",
+    "secondaryParam": "Joyful",
+    "listening": {
+      "day": 843,
+      "week": 835,
+      "month": 56
+    }
+  },
+  {
+    "src": "KoruSe, CHMCL SÃUP â BLACKOUT.mp3",
+    "imgSrc": "KoruSe, CHMCL SÃUP â BLACKOUT.jpg",
+    "name": "BLACKOUT",
+    "autor": "CHMCL SØUP",
+    "genre": "D&B",
+    "secondaryParam": "None",
+    "listening": {
+      "day": 743,
+      "week": 357,
+      "month": 64
+    }
+  }
+]

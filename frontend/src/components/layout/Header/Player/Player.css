@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.player__container {
+  width: 660px;
+  height: 50px;
+  background-color: #222527;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.player__container__duration-text {
+  display: flex;
+  /* Устанавливает контейнер как flex-контейнер */
+  justify-content: space-between;
+  /* Распределяет дочерние элементы по краям контейнера */
+  width: 420px;
+  /* Устанавливает ширину контейнера, можно настроить по необходимости */
+  background-color: #222527;
+  /* Цвет фона для наглядности */
+  color: white;
+  opacity: 0.8;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.75rem;
+}

@@ -1,0 +1,83 @@
+@charset "UTF-8";
+.music-setting {
+  display: flex;
+  /* Устанавливает контейнер как flex-контейнер */
+  align-items: center;
+  /* Центрирует дочерние элементы по горизонтали */
+  background-color: #222527;
+  /* Задает темный фон контейнера */
+  color: white;
+  opacity: 0.8;
+  width: 100px;
+  /* Устанавливает фиксированную ширину контейнера */
+  height: 50px;
+  /* Устанавливает фиксированную высоту контейнера */
+  justify-content: space-between;
+  /* Распределяет дочерние элементы по краям контейнера */
+  padding-inline: 20px; }
+  .music-setting--column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Центрирует дочерние элементы по горизонтали */ }
+  .music-setting__label {
+    margin-bottom: 0.1rem;
+    /* Добавляет небольшой отступ снизу для элемента с классом __label */
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    /* Уменьшает размер шрифта для текста внутри элемента __label */
+    color: white;
+    opacity: 0.8; }
+  .music-setting__slider {
+    -webkit-appearance: none;
+    /* Убирает стандартное оформление ползунка для браузеров на основе WebKit */
+    appearance: none;
+    /* Убирает стандартное оформление ползунка для остальных браузеров */
+    width: 50px;
+    /* Устанавливает ширину ползунка */
+    height: 5px;
+    /* Устанавливает высоту ползунка */
+    background: linear-gradient(to right, #00aeff 50%, #222527 50%);
+    /* Фон ползунка: голубой цвет слева, черный справа */
+    background-size: 50% 2px;
+    /* Устанавливает размер фона */
+    background-repeat: no-repeat;
+    /* Фон не повторяется */
+    outline: none;
+    /* Убирает обводку вокруг ползунка при фокусировке */
+    opacity: 0.8;
+    /* Прозрачность ползунка */
+    transition: opacity 0.2s;
+    /* Плавный переход только для прозрачности */ }
+    .music-setting__slider:hover {
+      opacity: 0.8;
+      /* Уменьшает прозрачность ползунка при наведении курсора */ }
+    .music-setting__slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      /* Убирает стандартное оформление ползунка для браузеров на основе WebKit */
+      appearance: none;
+      /* Убирает стандартное оформление ползунка для остальных браузеров */
+      width: 8px;
+      /* Устанавливает ширину "ползунка-черешка" */
+      height: 8px;
+      /* Устанавливает высоту "ползунка-черешка" */
+      border-radius: 50%;
+      /* Округляет углы, чтобы сделать "ползунок-черешок" круглым */
+      background: #00aeff;
+      /* Устанавливает синий цвет для "ползунка-черешка" */
+      opacity: 0;
+      /* Прозрачность ползунка */ }
+      .music-setting__slider::-webkit-slider-thumb:hover {
+        opacity: 0.8;
+        /* Уменьшает прозрачность ползунка при наведении курсора */ }
+    .music-setting__slider::-moz-range-thumb {
+      width: 8px;
+      /* Устанавливает ширину "ползунка-черешка" для браузеров на основе Gecko */
+      height: 8px;
+      /* Устанавливает высоту "ползунка-черешка" для браузеров на основе Gecko */
+      border-radius: 50%;
+      /* Округляет углы, чтобы сделать "ползунок-черешок" круглым */
+      background: #00aeff;
+      /* Устанавливает синий цвет для "ползунка-черешка" */ }
+
+/*# sourceMappingURL=MusicVolume.css.map */

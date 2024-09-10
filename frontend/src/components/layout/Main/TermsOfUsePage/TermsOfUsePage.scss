@@ -1,0 +1,55 @@
+@import '../../../../styles/variables';
+@import '../../../../styles/mixins';
+
+@include desktop {
+  .TermsOfUsePage {
+    background: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    margin-inline: 1rem;
+    width: calc(100% - 2rem);
+    height: 100%;
+    border-radius: 0.5rem;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+
+    &-text1 {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    &-text2 {
+      white-space: pre-line;
+      font-size: 14px;
+      color: #222222;
+      padding-top: 2rem;
+      line-height: 1.5;
+    }
+  }
+}
+
+@include mobile {
+  .TermsOfUsePage {
+    background: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    margin-inline: 1rem;
+    width: calc(100vw - 2rem);
+    border-radius: 0.5rem;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+
+    &-text1 {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    &-text2 {
+      white-space: pre-line;
+      font-size: 14px;
+      color: #222222;
+      padding-top: 2rem;
+      line-height: 1.5;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.slide-container {
+  position: fixed;
+  top: 0;
+  left: -400px;
+  width: 400px;
+  height: 100%;
+  background-color: #303538;
+  transition: left 0.5s ease;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+
+  &.open {
+    left: 0;
+  }
+
+  .links {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 26px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 20px;
+      font-family: 'Arial', sans-serif;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #32b9fc;
+      }
+    }
+  }
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Arial', sans-serif;
+  transition: color 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    color: #32b9fc;
+  }
+}
+

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.header {
+  margin: 0;
+  padding: 0;
+  background-color: #303538;
+  display: flex;
+  justify-content: center;
+  /* Центровка по горизонтали */
+  align-items: center;
+  /* Центровка по вертикали */
+  height: 50px;
+  /* Вы можете изменить это значение по своему усмотрению */
+}
+.header--button_music_genre {
+  position: absolute;
+  left: 10px;
+  background-color: transparent;
+  color: white;
+  /* Цвет текста кнопки */
+  display: flex;
+  /* Для выравнивания содержимого кнопки по горизонтали */
+  align-items: center;
+  /* Центровка по вертикали */
+  border: 1px solid #303538;
+  /* Если хотите, можно добавить границу */
+  cursor: pointer;
+  /* Указатель мыши при наведении на кнопку */
+}
+.header--button_music_genre--svg_size {
+  width: 36px;
+  /* Укажите нужный размер для вашей иконки */
+  height: 36px;
+  /* Укажите нужный размер для вашей иконки */
+}
+.header--button_login {
+  position: absolute;
+  right: 10px;
+  /* Расстояние от правого края экрана */
+  background-color: transparent;
+  color: white;
+  /* Цвет текста кнопки */
+  display: flex;
+  /* Для выравнивания содержимого кнопки по горизонтали */
+  align-items: center;
+  /* Центровка по вертикали */
+  border: 1px solid #303538;
+  /* Если хотите, можно добавить границу */
+  padding: 10px 20px;
+  /* Размеры кнопки */
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  /* Укажите желаемый размер шрифта */
+  font-weight: bold;
+  /* Укажите начертание шрифта (normal, bold, 100, 400, и т.д.) */
+  cursor: pointer;
+  /* Указатель мыши при наведении на кнопку */
+}
+.header--button_login svg {
+  margin-right: 8px;
+  /* Отступ между иконкой и текстом */
+}
+.header--button_login--svg_size {
+  width: 24px;
+  /* Укажите нужный размер для вашей иконки */
+  height: 24px;
+  /* Укажите нужный размер для вашей иконки */
+}

@@ -1,0 +1,21 @@
+.NotFoundPage {
+  background: white;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: calc(100% - 50px);
+  height: 100%;
+  border-radius: 0.5rem;
+  font-family: 'Arial', sans-serif;
+
+  &-text1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  &-text2 {
+    font-size: 14px;
+    color: #222222;
+    padding-top: 2rem;
+    line-height: 1.5;
+
+  }
+}

@@ -1,0 +1,44 @@
+.hamburger-menu {
+  width: 30px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  z-index: 20;
+  opacity: 0.8;
+  position: absolute;
+  left: 20px;
+
+  .bar {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    transition: 0.3s ease;
+    border-radius: 5px;
+
+    &.bar1 {
+      transform-origin: top left;
+    }
+
+    &.bar2 {
+      opacity: 1;
+    }
+
+    &.bar3 {
+      transform-origin: bottom left;
+    }
+
+    &.open.bar1 {
+      transform: rotate(45deg);
+    }
+
+    &.open.bar2 {
+      opacity: 0;
+    }
+
+    &.open.bar3 {
+      transform: rotate(-45deg);
+    }
+  }
+}

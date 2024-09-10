@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.input {
+  width: 190px;
+  height: 28px;
+  padding-inline: 10px;
+  font-size: 15px;
+  border: 0px solid #222527;
+  background-color: #222527;
+  color: white;
+  /* Цвет текста */
+  font-style: italic;
+  /* Делает текст наклонным */
+}
+
+.button {
+  padding-top: 3px;
+  padding-inline: 6px;
+  font-size: 23px;
+  border-radius: 2px;
+  border: none;
+  background-color: #00aaff;
+  color: white;
+  cursor: pointer;
+}

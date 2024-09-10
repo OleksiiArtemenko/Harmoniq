@@ -1,0 +1,528 @@
+@import '../../../../styles/variables';
+@import '../../../../styles/mixins';
+
+@include desktop {
+  .music-list-container {
+    padding: 10px;
+    display: flex;
+
+    &-side {
+      background: white;
+      width: 18rem;
+      height: 100%;
+      color: #222222;
+      border-radius: 0.5rem;
+
+      &-text1 {
+        padding-inline: 1rem;
+        font-family: 'Arial', sans-serif;
+        font-size: 18px;
+      }
+
+      &-text2 {
+        padding-inline: 1rem;
+        font-family: 'Arial', sans-serif;
+        font-size: 14px;
+      }
+
+      img {
+        padding: 10px;
+        padding-bottom: 1rem;
+      }
+    }
+  }
+
+  .music-list {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: calc(100% - 340px);
+    font-family: 'Arial', sans-serif;
+    margin-right: 20px;
+    border-radius: 0.5rem;
+
+    &__button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &-search {
+        padding: 5px;
+        margin: 5px;
+        color: #333333;
+        font-family: 'Arial', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        border: none;
+        background: none;
+
+        &:hover {
+          background-color: #e8eced;
+        }
+      }
+
+      &-params {
+        padding: 5px;
+        margin: 5px;
+        color: #333333;
+        font-family: 'Arial', sans-serif;
+        font-size: 14px;
+        border-radius: 3px;
+        cursor: pointer;
+        font-weight: bold;
+        border: none;
+        background: none;
+
+        &:hover {
+          background-color: #e8eced;
+        }
+        &.active {
+          background-color: #e8eced;
+        }
+      }
+    }
+
+    &__track {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 4px;
+      position: relative;
+
+      &__modal-window {
+        display: flex;
+        flex-direction: column;
+
+        &-button{
+          align-self: flex-end;
+          width: 100%;
+          height: 50px;
+          background-color: white;
+          border: 1px solid #ddd;
+          opacity: 0.87;
+          font-size: 14px;
+          font-family: NeueMontreal, Arial, sans-serif;
+          text-align: left;
+
+          &:hover {
+            background-color: #dddddd;
+            cursor: pointer;
+          }
+
+          .fa-heart {
+            color: inherit;
+          }
+
+          &.liked .fa-heart {
+            color: #32b9fc;
+          }
+        }
+
+        h3 {
+          color: #222222;
+          font-size: 16px;
+          font-family: 'Arial', sans-serif;
+          font-weight: 400;
+        }
+
+        h5 {
+          margin: 0;
+          font-weight: 400;
+          color: #bdbdbd;
+          font-family: 'Arial', sans-serif;
+        }
+      }
+
+      &--img-btn {
+        border: none;
+        height: 50px;
+        width: 50px;
+        border-radius: 5px;
+        margin-inline: 10px;
+        padding: 0;
+        background: none;
+
+        .play-icon {
+          position: absolute;
+          top: 50%;
+          left: 6%;
+          transform: translate(-50%, -50%);
+          font-size: 28px;
+          color: white;
+          opacity: 0.8;
+          pointer-events: none;
+        }
+
+        &:hover {
+          opacity: 0.8;
+          cursor: pointer;
+        }
+      }
+
+      &__name {
+        display: flex;
+        flex-direction: column;
+
+        &-button {
+          display: flex;
+          margin-left: auto;
+          margin-right: 1rem;
+          font-size: 1.4rem;
+          height: 2rem;
+          width: 2rem;
+          background-color: white;
+          cursor: pointer;
+          justify-content: center;
+          align-items: center;
+          border: none;
+          opacity: 0.5;
+        }
+      }
+
+      &__popup {
+        position: fixed;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 16rem;
+
+        img {
+          padding: 10px;
+          margin: 10px;
+        }
+      }
+
+      img {
+        padding: 0;
+        max-width: 50px;
+        max-height: 50px;
+        border-radius: 5px;
+        object-fit: cover;
+      }
+
+      h3 {
+        margin-bottom: 5px;
+        font-size: 1rem;
+      }
+
+      p {
+        margin-top: 0;
+        font-size: 15px;
+        color: #5c5c5c;
+      }
+    }
+  }
+
+  .add-amountTracks {
+    padding: 5px;
+    margin-top: 0.75rem;
+    margin-bottom: 1.5rem;
+    margin-inline: 1.5rem;
+    background-color: #b0e3ff;
+    border-radius: 5px;
+    border: 0px solid white;
+    font-family: 'Arial', sans-serif;
+    color: #095c8b;
+    width: 20%;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #95d4ff;
+      color: #07476b;
+      cursor: pointer;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      transform: translateY(-3px);
+    }
+  }
+
+  .upload-button {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 10px 20px;
+    background-color: #32b9fc;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #1e90ff;
+    }
+  }
+}
+
+@include mobile {
+  .music-list-container {
+    padding: 16px;
+    display: flex;
+
+    &-side {
+      position: absolute;
+      left: -9999px;
+      background: white;
+      width: 18rem;
+      height: 100%;
+      color: #222222;
+      border-radius: 0.5rem;
+
+      &-text1 {
+        padding-inline: 1rem;
+        font-family: 'Arial', sans-serif;
+        font-size: 18px;
+      }
+
+      &-text2 {
+        padding-inline: 1rem;
+        font-family: 'Arial', sans-serif;
+        font-size: 14px;
+      }
+
+      img {
+        padding: 10px;
+        padding-bottom: 1rem;
+      }
+    }
+  }
+
+  .music-list {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: calc(100vw - 2rem);
+    font-family: 'Arial', sans-serif;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+
+    &__button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &-search {
+        padding: 5px;
+        margin: 5px;
+        color: #333333;
+        font-family: 'Arial', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        border: none;
+        background: none;
+
+        &:hover {
+          background-color: #e8eced;
+        }
+      }
+
+      &-params {
+        padding: 5px;
+        margin: 5px;
+        color: #333333;
+        font-family: 'Arial', sans-serif;
+        font-size: 14px;
+        border-radius: 3px;
+        cursor: pointer;
+        font-weight: bold;
+        border: none;
+        background: none;
+
+        &:hover {
+          background-color: #e8eced;
+        }
+        &.active {
+          background-color: #e8eced;
+        }
+      }
+    }
+
+    &__track {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 4px;
+      position: relative;
+
+      &__modal-window {
+        display: flex;
+        flex-direction: column;
+
+        &-button{
+          align-self: flex-end;
+          width: 100%;
+          height: 50px;
+          background-color: white;
+          border: 1px solid #ddd;
+          opacity: 0.87;
+          font-size: 14px;
+          font-family: NeueMontreal, Arial, sans-serif;
+          text-align: left;
+
+          &:hover {
+            background-color: #dddddd;
+            cursor: pointer;
+          }
+
+          .fa-heart {
+            color: inherit;
+          }
+
+          &.liked .fa-heart {
+            color: #32b9fc;
+          }
+        }
+
+        h3 {
+          color: #222222;
+          font-size: 16px;
+          font-family: 'Arial', sans-serif;
+          font-weight: 400;
+        }
+
+        h5 {
+          margin: 0;
+          font-weight: 400;
+          color: #bdbdbd;
+          font-family: 'Arial', sans-serif;
+        }
+      }
+
+      &--img-btn {
+        border: none;
+        height: 50px;
+        width: 50px;
+        border-radius: 5px;
+        margin-inline: 10px;
+        padding: 0;
+        background: none;
+
+        .play-icon {
+          position: absolute;
+          top: 50%;
+          left: 40px;
+          transform: translate(-50%, -50%);
+          font-size: 28px;
+          color: white;
+          opacity: 0.8;
+          pointer-events: none;
+        }
+
+        &:hover {
+          opacity: 0.8;
+          cursor: pointer;
+        }
+      }
+
+      &__name {
+        display: flex;
+        flex-direction: column;
+
+        &-button {
+          display: flex;
+          margin-left: auto;
+          margin-right: 1rem;
+          font-size: 1.4rem;
+          height: 2rem;
+          width: 2rem;
+          background-color: white;
+          cursor: pointer;
+          justify-content: center;
+          align-items: center;
+          border: none;
+          opacity: 0.5;
+        }
+      }
+
+      &__popup {
+        position: fixed;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 16rem;
+
+        img {
+          padding: 10px;
+          margin: 10px;
+        }
+      }
+
+      img {
+        padding: 0;
+        max-width: 50px;
+        max-height: 50px;
+        border-radius: 5px;
+        object-fit: cover;
+      }
+
+      h3 {
+        margin-bottom: 5px;
+        font-size: 1rem;
+      }
+
+      p {
+        margin-top: 0;
+        font-size: 15px;
+        color: #5c5c5c;
+      }
+    }
+  }
+
+  .add-amountTracks {
+    padding: 5px;
+    margin-top: 0.75rem;
+    margin-bottom: 1.5rem;
+    margin-inline: 1.5rem;
+    background-color: #b0e3ff;
+    border-radius: 5px;
+    border: 0px solid white;
+    font-family: 'Arial', sans-serif;
+    color: #095c8b;
+    width: 20%;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #95d4ff;
+      color: #07476b;
+      cursor: pointer;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      transform: translateY(-3px);
+    }
+  }
+
+  .upload-button {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 10px 20px;
+    background-color: #32b9fc;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #1e90ff;
+    }
+  }
+}

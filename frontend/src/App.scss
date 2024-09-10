@@ -1,0 +1,14 @@
+body {
+  background-color: #e8eced;
+}
+
+@media (max-width: 1050px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+.App {
+  width: 64rem;
+  margin: 0 auto;
+}

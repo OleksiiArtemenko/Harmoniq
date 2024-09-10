@@ -1,0 +1,61 @@
+.player__container {
+  width: 660px;
+  height: 50px;
+  background-color: #222527;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+
+  &-img {
+    margin-left: 3.5rem;
+    width: 50px;
+    height: 50px;
+  }
+
+  @media (min-width: 1920px) {
+    &-img {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1050px) {
+    &-img {
+      display: none;
+    }
+  }
+
+  &__duration-text {
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    background-color: #222527;
+    color: white;
+    opacity: 0.8;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.75rem;
+  }
+
+  @media (max-width: 1050px) {
+    &__duration-text {
+      width: calc(100vw - 300px);
+    }
+  }
+
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1050px) {
+  .player__container {
+    position: absolute;
+    left: 0;
+    top: calc(100vh - 50px);
+    display: flex;
+    width: 100vw;
+  }
+}

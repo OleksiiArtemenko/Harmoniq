@@ -1,0 +1,39 @@
+@import '../../../../styles/variables';
+@import '../../../../styles/mixins';
+
+@include desktop {
+  .currentTrackName {
+    padding-top: 0;
+    margin-top: 0;
+    position: absolute;
+    left: 6rem;
+    display: flex;
+    color: white;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+
+    &__text {
+      padding-inline: 1rem;
+    }
+    &:hover {
+      color: #94c6e0;
+      text-decoration: underline;
+      cursor: default;
+    }
+
+    img {
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      border-radius: 2px;
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+@include laptop {
+  .currentTrackName {
+    display: none;
+  }
+}

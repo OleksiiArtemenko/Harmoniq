@@ -1,0 +1,53 @@
+@charset "UTF-8";
+.track-container {
+  width: 420px;
+  height: 12px;
+  background-color: #5c5c5c;
+  /* Фон линии */
+  position: relative;
+  /* Для абсолютного позиционирования внутренних элементов */
+  overflow: hidden;
+  /* Скрытие элементов, выходящих за границы контейнера */
+  text-align: center;
+  /* Выравнивание текста по центру */
+}
+
+.track-buffered {
+  width: 45%;
+  /* Примерно 70% буферизовано */
+  height: 100%;
+  background-color: #377d9d;
+  /* Цвет загрузки */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.track-progress {
+  width: 40%;
+  /* Примерно 40% времени прошло */
+  height: 100%;
+  background-color: #00aeff;
+  /* Цвет пройденного времени */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.track-label {
+  position: absolute;
+  /* Позиционируем относительно контейнера */
+  width: 100%;
+  /* Полная ширина контейнера */
+  bottom: -20px;
+  /* Располагаем под линией (можно отрегулировать отступ по необходимости) */
+  text-align: center;
+  /* Центрируем текст по горизонтали */
+  color: white;
+  /* Цвет текста */
+  opacity: 0.8;
+  font-size: 14px;
+  /* Размер шрифта */
+}

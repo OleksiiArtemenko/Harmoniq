@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.player-controls {
+  display: flex;
+  /* Расположить элементы по горизонтали */
+  justify-content: center;
+  /* Центрирование элементов */
+  gap: 1rem;
+  /* Отступы между кнопками */
+  width: 100px;
+  /* Фиксированная длина контейнера */
+  padding-inline: 20px;
+}
+.player-controls__button {
+  width: 20px;
+  /* Ширина кнопки */
+  height: 20px;
+  /* Высота кнопки */
+  background-color: #222527;
+  /* Цвет фона кнопки */
+  color: white;
+  /* Цвет иконки */
+  opacity: 0.8;
+  border: none;
+  /* Убрать границу */
+  border-radius: 50%;
+  /* Сделать кнопки круглыми */
+  display: flex;
+  /* Центрирование иконки внутри кнопки */
+  justify-content: center;
+  /* Центрирование иконки внутри кнопки */
+  align-items: center;
+  /* Центрирование иконки внутри кнопки */
+  cursor: pointer;
+  /* Курсор при наведении */
+  font-size: 1.25rem;
+  /* Размер иконки */
+}
