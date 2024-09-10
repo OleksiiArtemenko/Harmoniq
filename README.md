@@ -19,7 +19,7 @@ to search for and play tracks, save music to favorites and download.
 
 ![](./Preview.png)
 
-Application Overview - [Watch on YouTube](https://)
+Application Overview - [Watch on YouTube](https://youtu.be/cgaqNQ8OKtI)
 
 
 # Application Architecture
@@ -45,19 +45,22 @@ The application follows a client-server architecture. The frontend, built using 
 git clone https://github.com/OleksiiArtemenko/music-web.git
 ```
 
-* Open the Frontend folder and install dependencies using the command:
+* Open the Frontend folder, install dependencies and build the project using commands:
 ```
 cd frontend
 ```
 ```
 npm install
 ```
+```
+npm run build
+```
 * Open the Backend folder and install dependencies using the command:
 ```
 cd ..
 ```
 ```
-cd frontend
+cd backend
 ```
 ```
 npm install
