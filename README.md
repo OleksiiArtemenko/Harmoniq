@@ -39,28 +39,37 @@ The application follows a client-server architecture. The frontend, built using 
 - **Real-Time Updates** — The interface is updated without needing toЗапуск проекта reload the page, thanks to React’s dynamic functionality and interaction with the server via REST API.
 
 
-## Installation
-* Clone project to your computer from Github using the command:
+## Installation (Using Docker)
+* Download project to your computer from Docker hub using the command:
+```
+docker pull perlovka/harmoniq
+```
+
+
+* Start the project using the command:
+```
+docker run -d -p 80:80 --name harmoniq perlovka/harmoniq
+```
+
+## Installation (Using Git)
+* Clone project to your computer from GitHub using the command:
 ```
 git clone https://github.com/OleksiiArtemenko/music-web.git
 ```
 
-* Open the Frontend folder, install dependencies and build the project using commands:
+* Open the Frontend folder and install dependencies using the command:
 ```
 cd frontend
 ```
 ```
 npm install
 ```
-```
-npm run build
-```
 * Open the Backend folder and install dependencies using the command:
 ```
 cd ..
 ```
 ```
-cd backend
+cd frontend
 ```
 ```
 npm install
